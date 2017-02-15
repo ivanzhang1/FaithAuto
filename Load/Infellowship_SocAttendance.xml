@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<configuration>
+		<application>infellowship</application>
+		<churchCode>QAEUNLX0C1</churchCode>
+		<environment>STAGING</environment>
+		<threads>2</threads>
+		<rampUp>0</rampUp>
+		<duration>15</duration>
+		<credentials>
+			<username>cgutekunst@fellowshiptech.com</username>
+			<password>CG.Admin09</password>
+		</credentials>
+		<targetURL>https://qaeunlx0c1.staging.infellowship.com/Groups/147765/Attendance/New</targetURL>
+		<requestType>POST</requestType>
+	</configuration>
+	<postData>
+		<dataItem>
+			<name>post_attendance</name>
+			<value>1167</value>
+		</dataItem>
+		<dataItem>
+			<name>group_attendance</name>
+			<value>yes</value>
+		</dataItem>
+		<dataItem>
+			<name>individual_14792974</name>
+			<value>on</value>
+		</dataItem>
+		<dataItem>
+			<name>btn_save</name>
+			<value>Save+attendance</value>
+		</dataItem>
+	</postData>
+</test>

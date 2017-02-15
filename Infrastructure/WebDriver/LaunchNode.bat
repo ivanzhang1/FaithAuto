@@ -1,0 +1,1 @@
+java -jar C:\Selenium\selenium-server-standalone-2.20.0.jar -role node -hub http://localhost:4444/grid/register -browser browserName=firefox,maxInstances=15 -maxSession 15

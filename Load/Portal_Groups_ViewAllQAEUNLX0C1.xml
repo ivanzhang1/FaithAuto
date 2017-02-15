@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<configuration>
+		<application>portal</application>
+		<churchCode>QAEUNLX0C1</churchCode>
+		<environment>QA</environment>
+		<threads>20</threads>
+		<rampUp>0</rampUp>
+		<duration>60</duration>
+		<credentials>
+			<username>cgutekunst</username>
+			<password>CG.Admin09</password>
+		</credentials>
+		<targetURL>http://portalqa.dev.corp.local/Groups/Group/ListAll.aspx</targetURL>
+		<requestType>GET</requestType>
+	</configuration>
+	<postData>
+		<dataItem>
+			<name>post_attendance</name>
+			<value>1167</value>
+		</dataItem>
+		<dataItem>
+			<name>group_attendance</name>
+			<value>yes</value>
+		</dataItem>
+		<dataItem>
+			<name>individual_14792974</name>
+			<value>on</value>
+		</dataItem>
+		<dataItem>
+			<name>btn_save</name>
+			<value>Save+attendance</value>
+		</dataItem>
+	</postData>
+</test>

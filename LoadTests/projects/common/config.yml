@@ -1,0 +1,25 @@
+PortalURL:
+    DEV: "http://portaldev.dev.corp.local/login.aspx"
+    QA: "http://portalqa.dev.corp.local/login.aspx"
+    STAGING: "https://staging-www.fellowshipone.com"
+    PRODUCTION: "https://www.fellowshipone.com"
+    HOTFIX: "https://www.hotfix.fellowshipone.com"
+
+InFellowshipURL:
+    DEV: ""
+    QA: ""
+    STAGING: ""
+    PRODUCTION: ""
+    HOTFIX: ""
+
+WeblinkURL:
+    DEV: ""
+    QA: ""
+    STAGING: ""
+    PRODUCTION: ""
+    HOTFIX: ""
+
+Credentials:
+    username: "msneeden"
+    password: "Pa$$w0rd"
+    churchcode: "dc"

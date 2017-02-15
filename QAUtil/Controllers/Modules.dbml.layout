@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Modules">
+  <DataContextMoniker Name="/ModulesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7c16b69d-8d84-4883-8bb0-cb519edbf4f0" absoluteBounds="2.25, 2, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/ModulesDataContext/MODULE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75a44fc7-6220-4979-a97c-41b7b8f3410c" absoluteBounds="2.265, 2.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af09b808-1d71-4e51-ae4f-714c825efdff" absoluteBounds="6.75, 1.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/ModulesDataContext/CHURCH_MODULE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ccc1986a-42ca-40a3-a7bd-72471d1a5c63" absoluteBounds="6.765, 1.96, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.25 : 2.92390055338542); (6.75 : 2.92390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ModulesDataContext/MODULE/MODULE_CHURCH_MODULE" />
+      <nodes>
+        <classShapeMoniker Id="7c16b69d-8d84-4883-8bb0-cb519edbf4f0" />
+        <classShapeMoniker Id="af09b808-1d71-4e51-ae4f-714c825efdff" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

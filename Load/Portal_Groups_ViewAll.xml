@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<configuration>
+		<application>portal</application>
+		<churchCode>QAEUNLX0C2</churchCode>
+		<environment>QA</environment>
+		<threads>20</threads>
+		<rampUp>0</rampUp>
+		<duration>Pulse</duration>
+		<credentials>
+			<username>bmikaelian</username>
+			<password>BM.Admin09</password>
+		</credentials>
+		<targetURL>http://portalqa.dev.corp.local/Groups/Group/ListAll.aspx</targetURL>
+		<requestType>GET</requestType>
+	</configuration>
+	<postData>
+		<dataItem>
+			<name>post_attendance</name>
+			<value>1167</value>
+		</dataItem>
+	</postData>
+</test>

@@ -1,0 +1,20 @@
+﻿------ Test started: Assembly: CheckIn.dll ------
+
+Gallio TestDriven.Net Runner - Version 3.4 build 12
+
+Test Files:
+	C:\Automation\CheckIn\bin\Debug\CheckIn.dll
+
+Start time: 2:43 PM
+Verifying test files.
+Initializing the test runner.
+Running the tests.
+TestCase 'CheckIn/PreviousCheckIn/CheckInTeacher_AfterCheckIn_DeleteActivity' passed.
+
+Disposing the test runner.
+Stop time: 2:46 PM (Total execution time: 179.624 seconds)
+
+Test Report: file:///C:/Users/mkou/AppData/Local/Temp/Gallio/TDNetRunner/Report/CheckIn.dll.html
+
+1 passed, 0 failed, 0 skipped, took 179.81 seconds (MbUnit v3.4).
+

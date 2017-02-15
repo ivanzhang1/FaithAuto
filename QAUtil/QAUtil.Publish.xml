@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Websites" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default Web Site/QAUtil" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="ft01\msneeden" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Views/Home/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/Modules.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="bin/QAUtil.pdb" publishTime="07/26/2012 11:52:17" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Global.asax" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/Selenium.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/LogOnUserControl.ascx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/DataSourceUserControl.ascx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/ApplicationPools.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="bin/QAUtil.dll" publishTime="07/26/2012 11:52:17" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/RemoteDepositCapture.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Account/Register.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/DeleteAccounts.ascx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Account/ChangePassword.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/DBActionView.Master" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/CommandLine/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/Payments.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Account/ChangePasswordSuccess.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/Batches_RemoteDepositCapture.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/ApplicationLog.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Infrastructure/Services.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/Error.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/BatchesDelete.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Web.config" publishTime="07/26/2012 11:54:32" />
+    <file relUrl="Views/Groups/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Content/Site.css" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Giving/PaymentTypes.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Home/About.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Shared/DataSourceChurchId.ascx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Tests/Index.aspx" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="07/26/2012 11:24:04" />
+    <file relUrl="Views/Web.config" publishTime="07/02/2011 18:36:44" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="07/26/2012 11:24:04" />
+  </publishProfile>
+</publishData>

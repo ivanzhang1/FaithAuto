@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Payments">
+  <DataContextMoniker Name="/PaymentsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0d57eb9-972c-47b2-811f-596a42db9b53" absoluteBounds="1.375, 0.5, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/PaymentsDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb452fdb-97cb-4766-9637-cc4934cc1c59" absoluteBounds="1.3900000000000001, 0.96, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f3d0fbc-9e37-4ea6-8a32-7ed61f7c19e5" absoluteBounds="4.5, 3, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/PaymentsDataContext/ProviderRequest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad138528-450a-4eee-b4f9-b11b9c9b1c73" absoluteBounds="4.515, 3.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 4.46235270182292); (4.5 : 4.46235270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentsDataContext/Payment/Payment_ProviderRequest" />
+      <nodes>
+        <classShapeMoniker Id="c0d57eb9-972c-47b2-811f-596a42db9b53" />
+        <classShapeMoniker Id="1f3d0fbc-9e37-4ea6-8a32-7ed61f7c19e5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8e55c130-9cd0-4a36-82c3-cdd900b16d4e" absoluteBounds="7.125, 1.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PaymentsDataContext/PaymentReason" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80a38096-9f70-46c1-8f2d-f6d5db969e71" absoluteBounds="7.14, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="508dbd8a-6b69-4927-a49c-f35e3ae35064" absoluteBounds="4.5, 1.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/PaymentsDataContext/PaymentStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36ebd646-58ce-47a5-9f06-140c6dab0b1b" absoluteBounds="4.515, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 1.72199625651042); (3.375 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentsDataContext/PaymentStatus/PaymentStatus_Payment" />
+      <nodes>
+        <classShapeMoniker Id="508dbd8a-6b69-4927-a49c-f35e3ae35064" />
+        <classShapeMoniker Id="c0d57eb9-972c-47b2-811f-596a42db9b53" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

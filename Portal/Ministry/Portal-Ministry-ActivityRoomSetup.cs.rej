@@ -1,0 +1,9 @@
+diff a/Portal/Ministry/Portal-Ministry-ActivityRoomSetup.cs b/Portal/Ministry/Portal-Ministry-ActivityRoomSetup.cs	(rejected hunks)
+@@ -1828,6 +1828,7 @@
+              test.Portal.LogoutWebDriver();
+          }
+  
+++<<<<<<< HEAD
+ +        #endregion Search
+ +
+ +        #region Dashboard

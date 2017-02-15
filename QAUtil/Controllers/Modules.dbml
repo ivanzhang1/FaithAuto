@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ChmPortal" Class="ModulesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=QADB.DEV.CORP.LOCAL,65317;Initial Catalog=ChmPortal;Persist Security Info=True;User ID=chm_system" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ChmPortalConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="ChmPortal.dbo.MODULE" Member="MODULEs">
+    <Type Name="MODULE">
+      <Column Name="MODULE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MODULE_NAME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="OLD_MODULE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="MODULE_CHURCH_MODULE" Member="CHURCH_MODULEs" ThisKey="MODULE_ID" OtherKey="MODULE_ID" Type="CHURCH_MODULE" />
+    </Type>
+  </Table>
+  <Table Name="ChmPortal.dbo.CHURCH_MODULE" Member="CHURCH_MODULEs">
+    <Type Name="CHURCH_MODULE">
+      <Column Name="MODULE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CHURCH_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="MODULE_CHURCH_MODULE" Member="MODULE" ThisKey="MODULE_ID" OtherKey="MODULE_ID" Type="MODULE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

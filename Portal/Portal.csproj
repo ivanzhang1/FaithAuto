@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4877B149-BB72-4E35-B960-4B12862D7A2F}</ProjectGuid>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Portal</RootNamespace>
+    <AssemblyName>Portal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveUp.Net.Common">
+      <HintPath>..\net40\ActiveUp.Net.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Imap4">
+      <HintPath>..\net40\ActiveUp.Net.Imap4.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Mail">
+      <HintPath>..\net40\ActiveUp.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\Gallio.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio35, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\Gallio35.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\Gallio40.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\net40\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit35, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\MbUnit35.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Gallio\bin\MbUnit40.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.TaskScheduler">
+      <HintPath>..\..\..\..\Downloads\TaskScheduler\Microsoft.Win32.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.21.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.21.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Common\AssemblyFixture.cs">
+      <Link>AssemblyFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Admin\Portal-Admin-ChurchSetup.cs" />
+    <Compile Include="Admin\Portal-Admin-ContactSetup.cs" />
+    <Compile Include="Admin\Portal-Admin-ImageUpload.cs" />
+    <Compile Include="Admin\Portal-Admin-Integration.cs" />
+    <Compile Include="Admin\Portal-Admin-MinistrySetup.cs" />
+    <Compile Include="Admin\Portal-Admin-PeopleSetup.cs" />
+    <Compile Include="Admin\Portal-Admin-SecuritySetup.cs" />
+    <Compile Include="Admin\Portal-Admin.cs" />
+    <Compile Include="Email\Portal-Email-Verification.cs" />
+    <Compile Include="Giving\Portal-GivingV2.cs" />
+    <Compile Include="Giving\Portal-Giving-Contributions.cs" />
+    <Compile Include="Giving\Portal-Giving-Setup.cs" />
+    <Compile Include="Giving\Portal-Giving-Statements.cs" />
+    <Compile Include="Giving\Portal-Giving.cs" />
+    <Compile Include="Groups\Portal-Groups-Administration.cs" />
+    <Compile Include="Groups\Portal-Groups-GroupsByGroupType.cs" />
+    <Compile Include="Groups\Portal-Groups.cs" />
+    <Compile Include="Home\Portal-Test.cs" />
+    <Compile Include="Home\Portal-Home.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Activities.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Assignments.cs" />
+    <Compile Include="Ministry\Portal-Ministry-ActivityRoomSetup.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Attendance.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Checkin.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Contacts.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Participants.cs" />
+    <Compile Include="Ministry\Portal-Ministry-Volunteers.cs" />
+    <Compile Include="Ministry\Portal-Ministry.cs" />
+    <Compile Include="People\Portal-People-CounselingMentoring.cs" />
+    <Compile Include="People\Portal-People-DataIntegrity.cs" />
+    <Compile Include="People\Portal-People-GroupEmail.cs" />
+    <Compile Include="People\Portal-People-VolunteerPipeline.cs" />
+    <Compile Include="People\Portal-People.cs" />
+    <Compile Include="People\Search\Portal-People-Search-AddHousehold.cs" />
+    <Compile Include="People\Search\Portal-People-Search-FindAPerson-Addresses.cs" />
+    <Compile Include="People\Search\Portal-People-Search-FindAPerson.cs" />
+    <Compile Include="People\Search\Portal-People-Search-PeopleQuery.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebLink\Portal-WebLink-EventRegistration.cs" />
+    <Compile Include="WebLink\Portal-WebLink-InFellowship.cs" />
+    <Compile Include="WebLink\Portal-WebLink-OnlineGiving.cs" />
+    <Compile Include="WebLink\Portal-WebLink-SmallGroupManager.cs" />
+    <Compile Include="WebLink\Portal-WebLink-VolunteerApplication.cs" />
+    <Compile Include="WebLink\Portal-WebLink-WebLinkSetup.cs" />
+    <Compile Include="WebLink\Portal-WebLink.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{31341126-378C-4CAC-B8A4-045FFB2CB1B2}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Selenium\Core\Core.csproj">
+      <Project>{69F4FF0E-13DE-4AF6-B8AF-572A36239083}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<configuration>
+		<application>portal</application>
+		<churchCode>DC</churchCode>
+		<environment>STAGING</environment>
+		<threads>10</threads>
+		<rampUp>0</rampUp>
+		<duration>300</duration>
+		<credentials>
+			<username>bmikaelian</username>
+			<password>BM.Admin09</password>
+		</credentials>
+		<targetURL>https://staging-www.fellowshipone.com/people/Individual/Index.aspx?id=6807613</targetURL>
+		<requestType>GET</requestType>
+	</configuration>
+	<postData>
+		<dataItem>
+			<name>post_attendance</name>
+			<value>1167</value>
+		</dataItem>
+	</postData>
+</test>

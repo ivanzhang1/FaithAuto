@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaymentTypes">
+  <DataContextMoniker Name="/PaymentTypesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="062bdf4d-60f3-4a5f-846b-8f1560a32d38" absoluteBounds="1.875, 2.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/PaymentTypesDataContext/PP_CHURCH_TYPE_PROCESSOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e901ad2c-9e6c-48d9-88c7-a8367fda3dba" absoluteBounds="1.8900000000000001, 2.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f4299401-ce7d-46b7-b984-f2da5df599d9" absoluteBounds="5.75, 3.375, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/PaymentTypesDataContext/PP_TYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea953a6b-cb31-432c-899f-2a755dd869eb" absoluteBounds="5.765, 3.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 4.17870198567708); (3.875 : 4.17870198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentTypesDataContext/PP_TYPE/PP_TYPE_PP_CHURCH_TYPE_PROCESSOR" />
+      <nodes>
+        <classShapeMoniker Id="f4299401-ce7d-46b7-b984-f2da5df599d9" />
+        <classShapeMoniker Id="062bdf4d-60f3-4a5f-846b-8f1560a32d38" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

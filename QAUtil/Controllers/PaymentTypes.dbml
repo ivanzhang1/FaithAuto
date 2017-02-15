@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ChmContribution" Class="PaymentTypesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=QADB.DEV.CORP.LOCAL,65317;Initial Catalog=ChmContribution;User ID=chm_system" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ChmContributionConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PP_CHURCH_TYPE_PROCESSOR" Member="PP_CHURCH_TYPE_PROCESSORs">
+    <Type Name="PP_CHURCH_TYPE_PROCESSOR">
+      <Column Name="PP_TYPE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CHURCH_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CREATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FEATURE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PP_Merchant_Provider_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PP_TYPE_PP_CHURCH_TYPE_PROCESSOR" Member="PP_TYPE" ThisKey="PP_TYPE_ID" OtherKey="PP_TYPE_ID" Type="PP_TYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PP_TYPE" Member="PP_TYPEs">
+    <Type Name="PP_TYPE">
+      <Column Name="PP_TYPE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PP_TYPE_NAME" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="TYPE_CODE" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+      <Column Name="DATE_ENTERED" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PP_PROCESSOR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CREATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_LOGIN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LAST_UPDATED_BY_USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PP_TYPE_PP_CHURCH_TYPE_PROCESSOR" Member="PP_CHURCH_TYPE_PROCESSORs" ThisKey="PP_TYPE_ID" OtherKey="PP_TYPE_ID" Type="PP_CHURCH_TYPE_PROCESSOR" />
+    </Type>
+  </Table>
+</Database>
